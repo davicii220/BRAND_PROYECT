@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+<!--------- START_NAVBAR     -->
+    <nav class="fadeInDown">
+        <div class="image-navbar">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <ul id="nav-links">
+            <li><a href="faqs.html">Faqs</a></li>
+            <li><a href="catalog.html">Producto y descripción</a></li>
+        </ul>
+    </nav>
+<!--------- FINISH_NAVBAR     -->
+
+
+<!--------- START_GRID_SECTION     -->
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="product-form-content">
+                    <div class="image-product-form-content">
+                        <img src="images/gato.png" alt="">
+                    </div>
+                    <h2>Producto 1</h2>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+                </div>
+            </div>
+
+
+            <div class="col-10">
+                <div class="form-content">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HPV4ECUJ4WHUS">
+                        <label for="name">Nombre:</label><br>
+                        <input class="data" type="name" id="name" required>
+                        <br>
+
+                        <label for="email">Correo Electrónico:</label><br>
+                        <input class="data" type="email" id="email" required>
+                        <br>
+
+                        <label for="phone">Teléfono:</label><br>
+                        <input class="data" type="phone" id="phone" required>
+                        <br>
+
+                        <input class="main-button" type="submit" value="Confirmar Pago">
+
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<!--------- FINSH_GRID_SECTION     --> 
+
+<!--------- START_FOOTER_SECTION     --> 
+    <footer>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li><a href="mailto: www.davicii220@gmail.com">www.contactobrand.com</a></li>
+    </footer>
+<!--------- START_FOOTER_SECTION     --> 
+
+
+
+
+
+
+
+
+
+<script>
+    const toggleButton= document.getElementById('menu-toggle');
+    const navLinks= document.getElementById('nav-links')
+
+    toggleButton.addEventListener('click', ()=>{
+        navLinks.classList.toggle('active');
+
+        if(navLinks.classList.contains('active')){
+            toggleButton.textContent= '✖️'
+        }
+        else{
+            toggleButton.textContent='☰';
+        }
+    });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

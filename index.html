@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+<!--------- START_NAVBAR     -->
+    <nav class="fadeInDown">
+        <div class="image-navbar">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <ul id="nav-links">
+            <li><a href="faqs.html">Faqs</a></li>
+            <li><a href="catalog.html">Producto y descripción</a></li>
+        </ul>
+    </nav>
+<!--------- FINISH_NAVBAR     -->
+
+<!--------- START_MAIN_SECTION     -->
+    <div class="main-section fadeIn">
+        <h2>Este es un producto increíble, no se que haces viendo que lo puedes tener.</h2>
+    </div>
+<!--------- FINISH_MAIN_SECTION     -->
+
+<!--------- START_PRODUCTS_SECTION     -->
+    <div class="product-section">
+        <div class="product-content fadeInUp">
+            <div class="image-product">
+                <img src="images/gato.png" alt="">
+            </div>
+            <h2>Producto 1</h2>
+            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+            
+            <a href="form.html">
+                <button class="main-button">Lo Quiero</button>
+            </a>
+        </div>
+
+        <div class="product-content fadeInUp">
+            <div class="image-product">
+                <img src="images/calvo.png" alt="">
+            </div>
+            <h2>Producto 1</h2>
+            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+            
+            <a href="form.html">
+                <button class="main-button">Lo Quiero</button>
+            </a>
+        </div>
+    </div>
+<!--------- FINISH_PRODUCTS_SECTION     -->
+
+<!--------- START_CATEGORIES_SECTION     --> 
+    <div class="categories-section">
+        <div class="categorie-content">
+            <div class="image-categorie">
+                <img src="images/cute.png" alt="">
+            </div>
+            <h3>Los más suavecitos</h3>
+            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+        </div>
+        <div class="categorie-content">
+            <div class="image-categorie">
+                <img src="images/planet.png" alt="">
+            </div>
+            <h3>Lo más increíble</h3>
+            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+        </div>
+        <div class="categorie-content">
+            <div class="image-categorie">
+                <img src="images/hot.png" alt="">
+            </div>
+            <h3>Lo más confiable</h3>
+            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+        </div>
+    </div>
+<!--------- FINISH_CATEGORIES_SECTION     --> 
+
+<!--------- START_MENCIONES_SECTION     --> 
+    <div class="title-mentions">
+        <h2>Menciones</h2>
+    </div>
+    <div class="mentions-section">
+        <div class="mention-content">
+            <div class="image-mention">
+                <img src="images/Mario.png" alt="">
+            </div>
+            <div class="text-mention">
+                <h3>Mario</h3>
+                <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+            </div>
+        </div>
+        <div class="mention-content">
+            <div class="image-mention">
+                <img src="images/Maria.png" alt="">
+            </div>
+            <div class="text-mention">
+                <h3>Maria</h3>
+                <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+            </div>
+        </div>
+        <div class="mention-content">
+            <div class="image-mention">
+                <img src="images/Joe.png" alt="">
+            </div>
+            <div class="text-mention">
+                <h3>Joe</h3>
+                <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+            </div>
+        </div>
+        <div class="mention-content">
+            <div class="image-mention">
+                <img src="images/Jamaica.png" alt="">
+            </div>
+            <div class="text-mention">
+                <h3>Jamaica</h3>
+                <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+            </div>
+        </div>
+    </div>
+<!--------- FINSH_MENCIONES_SECTION     --> 
+
+<!--------- START_FOOTER_SECTION     --> 
+    <footer>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li><a href="mailto: www.davicii220@gmail.com">www.contactobrand.com</a></li>
+    </footer>
+<!--------- START_FOOTER_SECTION     --> 
+
+
+
+
+
+
+
+
+
+<script>
+    const toggleButton= document.getElementById('menu-toggle');
+    const navLinks= document.getElementById('nav-links')
+
+    toggleButton.addEventListener('click', ()=>{
+        navLinks.classList.toggle('active');
+
+        if(navLinks.classList.contains('active')){
+            toggleButton.textContent= '✖️'
+        }
+        else{
+            toggleButton.textContent='☰';
+        }
+    });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
